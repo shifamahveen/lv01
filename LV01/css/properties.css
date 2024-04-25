@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+p {
+    font-style: italic; /* italic */
+    text-decoration: underline; /*underline */
+    font-weight: 400; /* bold */
+    font-family: "Roboto", sans-serif;
+
+}
+
+button {
+    border-radius: 35px;
+}
+
+section {
+    height: 400px;
+    background-image: url("https://cdn.pixelbin.io/v2/dummy-cloudname/original/erasebg_assets/feature_page/header/Car_BgWidgetImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* all p tags inside section tag */
+section p {
+    color: white;
+}
+
+section div {
+
+}
+
+.demo {
+    /* border-width, border-style */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: brown; */
+    display: inline;
+    border:2px solid green;
+    /* padding-top: 5px; */
+    padding: 5px 10px 20px 30px;
+    margin-bottom: 30px;
+}
