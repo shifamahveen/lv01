@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    border: 2px solid seagreen;
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+}
+
+ul {
+    list-style-type:lower-alpha;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 2px 2px 5px grey;
+    /* horizontal vertical blur color */
+}
+
+a:hover {
+    background-color: rgb(134, 194, 196);
+    /* transform: translateX(5px); */
+    transform: scale(1.05);
+
+}

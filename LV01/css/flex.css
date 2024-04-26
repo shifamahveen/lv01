@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* space along x axis (left & right) */
+    align-items: center; /* space along y axis (top & bottom) */
+    padding: 0 100px;
+    background-image: linear-gradient(black, grey);
+    color: white;
+}
+
+.btn {
+    background-color: cadetblue;
+    padding: auto 5px;
+    border-radius: 35px;
+}
