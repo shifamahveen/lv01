@@ -1,0 +1,44 @@
+h1{
+    margin: 0;
+}
+
+button {
+    background-color: cadetblue;
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
+div{
+    /* padding: 10px; */
+    /* yaxis xaxis */
+    /* padding: 10px 20px;  */
+    /* padding: 5px 10px 20px; */
+    padding: 5px 10px 20px 30px;
+}
+
+div {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px grey;
+}
+
+section {
+    background-image: linear-gradient(rgba(95, 158, 160, 0.16), rgba(191, 231, 233, 0.502)), url('../images/bg.jpg');
+    height: 80vh;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(270deg, cadetblue, rgb(191, 231, 233));
+}
+
+button:hover{
+    background-color: rgb(132, 190, 192);
+    cursor: pointer;
+}
