@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.first {
+    background-color: aquamarine;
+}
+
+.second {
+    background-color: burlywood;
+    height: 100px;
+}
+
+.third {
+    background-color: darkcyan;
+}
+
+section {
+    display: flex;
+    justify-content: center; /* space along x axis */
+    align-items: center; /* space along y axis */
+    flex-direction: column-reverse;
+}
