@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body >
+    
+    <!-- form -  text, email, password, number, color, file, date, submit-->
+    <form action="#" class="p-5 mx-auto" style="width: 50%;">
+        <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" placeholder="Enter name here..." class="form-control" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="sec">Email</label>
+            <input type="email" id="sec" placeholder="Enter email address" class="form-control">
+        </div>
+ 
+        <!-- dropdown -->
+        <p>Branch</p>
+        <select name="branch" class="form-control">
+            <option value="cse">Computer Science Engineering</option>
+            <option value="it" selected>IT</option>
+            <option value="ece">ECE</option>
+            <option value="eee">EEE</option>
+        </select>
+<br>
+        <!-- checkbox -->
+        <p>Technologies</p>
+
+        <input type="checkbox">
+        <label for="">C</label>
+
+        <input type="checkbox">
+        <label for="">C++</label>
+
+        <input type="checkbox">
+        <label for="">C#</label>
+
+<br>
+        <!-- radio buttons -->
+        <p>Gender</p>
+
+        <input type="radio" name="gender">
+        <label for="">Male</label>
+
+        <input type="radio" name="gender">
+        <label for="">Female</label>
+
+<br>
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
