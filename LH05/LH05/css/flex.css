@@ -1,0 +1,30 @@
+section, main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*space along x-axis */
+    align-items: center; /* space along y-axis*/
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.first{
+    background-color: blue;
+}
+
+.second{
+    background-color: green;
+    height: 150px;
+}
+
+.third{
+    background-color: red;
+}
+/* 
+main{
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+} */
